@@ -114,7 +114,7 @@ class Logger(object):
 # Cache directories
 # ------------------------------------------------------------------------------------------
 
-_dnnlib_cache_dir = '/data/thom08/repos/ecd/cache'
+_dnnlib_cache_dir = None
 
 def set_cache_dir(path: str) -> None:
     global _dnnlib_cache_dir
